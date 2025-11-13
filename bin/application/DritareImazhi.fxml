@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="999.0" prefWidth="600.0" style="-fx-background-color: #9ab3b7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fx:id="imgview" fitHeight="91.0" fitWidth="39.0" layoutX="93.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Noor_Nate.jpg" />
+         </image>
+      </ImageView>
+      <Slider fx:id="slider" layoutX="525.0" layoutY="191.0" orientation="VERTICAL" />
+      <ImageView fx:id="imgviewMoon" fitHeight="18.0" fitWidth="45.0" layoutX="123.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@moon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="208.0" layoutY="30.0" prefHeight="34.0" prefWidth="161.0" text="Zoom in / out">
+         <font>
+            <Font name="Bodoni MT" size="23.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="linkKetu" layoutX="198.0" layoutY="915.0" text="ketu">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="149.0" layoutY="919.0" text="Kliko ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="919.0" text="per te ngarkuar librin historik">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-2.0" layoutY="896.0" prefHeight="10.0" prefWidth="600.0" />
+      <TextField fx:id="txtstage1" layoutX="224.0" layoutY="848.0" prefHeight="38.0" prefWidth="161.0" promptText="Dite/Nate">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
